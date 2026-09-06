@@ -1,1 +1,14 @@
-**/*.csv
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+*.conda
+
+.ipynb_checkpoints/
+
+.streamlit/secrets.toml
+
+anaconda_projects/
