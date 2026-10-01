@@ -9,6 +9,7 @@ pages = {
     "Главная": "pages/home.py",
     "Лабораторная работа №1": "pages/lab1.py",
     "Лабораторная работа №2": "pages/lab2.py",
+    "Лабораторная работа №3": "pages/lab3.py",
 }
 
 page_list = []
