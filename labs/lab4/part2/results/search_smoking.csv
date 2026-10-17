@@ -1,0 +1,5 @@
+Модель,Метод,Комбинаций,Объектов в поиске,Лучший CV F1 (macro),"Время поиска, с",Лучшие параметры
+kNN,GridSearchCV,20,35641,0.7124951537311424,38.14766721200431,"{'n_neighbors': 31, 'p': 1, 'weights': 'uniform'}"
+Decision Tree,GridSearchCV,48,35641,0.7221581664959753,12.218629422000959,"{'criterion': 'entropy', 'max_depth': 7, 'min_samples_leaf': 20}"
+SVM,GridSearchCV,18,8000,0.7329984325265004,28.354390586988302,"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}"
+MLP,RandomizedSearchCV,15,35641,0.7426653883308713,52.48103815798822,"{'learning_rate_init': 0.003, 'hidden_layer_sizes': [128, 64, 32], 'alpha': 0.0001, 'activation': 'tanh'}"

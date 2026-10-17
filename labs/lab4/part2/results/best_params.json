@@ -1,0 +1,55 @@
+{
+  "smoking": {
+    "knn": {
+      "n_neighbors": 31,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "tree": {
+      "criterion": "entropy",
+      "max_depth": 7,
+      "min_samples_leaf": 20
+    },
+    "svm": {
+      "C": 10,
+      "gamma": 0.01,
+      "kernel": "rbf"
+    },
+    "mlp": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "tanh"
+    }
+  },
+  "drug": {
+    "knn": {
+      "n_neighbors": 11,
+      "p": 1,
+      "weights": "distance"
+    },
+    "tree": {
+      "criterion": "gini",
+      "max_depth": 5,
+      "min_samples_leaf": 1
+    },
+    "svm": {
+      "C": 10,
+      "kernel": "linear"
+    },
+    "mlp": {
+      "learning_rate_init": 0.003,
+      "hidden_layer_sizes": [
+        128,
+        64,
+        32
+      ],
+      "alpha": 0.0001,
+      "activation": "tanh"
+    }
+  }
+}
